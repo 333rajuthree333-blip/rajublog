@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "DATABASE_URL": "@database-url",
+    "JWT_SECRET": "@jwt-secret",
+    "NEXT_PUBLIC_ADSENSE_CLIENT": "@adsense-client",
+    "NEXT_PUBLIC_SITE_URL": "@site-url"
+  }
+}
